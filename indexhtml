@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- REQUIRED FOR RESPONSIVE - Part 1 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - ICE Task 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Luyanda Shongwe</h1>
+        <p>IIE Student | Aspiring Developer</p>
+    </header>
+
+    <nav>
+        <a href="#">Profile</a>
+        <a href="#">Education</a>
+        <a href="#">Skills</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <!-- DESKTOP: 3 columns side by side, MOBILE: stacked -->
+        <div class="profile-layout">
+            <section class="card" id="profile">
+                <h2>Profile</h2>
+                <p>I am a dedicated student at IIE Varsity College passionate about web development and creating user-friendly experiences.</p>
+                <p>Location: Soweto, Gauteng</p>
+            </section>
+
+            <section class="card" id="education">
+                <h2>Education</h2>
+                <p><strong>IIE Varsity College</strong></p>
+                <p>Diploma in Application Development</p>
+                <ul>
+                    <li>Web Development</li>
+                    <li>Mobile App Development</li>
+                    <li>Programming Logic</li>
+                </ul>
+            </section>
+
+            <section class="card" id="skills">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill">HTML</div>
+                    <div class="skill">CSS</div>
+                    <div class="skill">JavaScript</div>
+                    <div class="skill">GitHub</div>
+                    <div class="skill">Responsive Design</div>
+                    <div class="skill">Flexbox & Grid</div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Luyanda Shongwe - ICE Task 3</p>
+    </footer>
+</body>
+</html>
